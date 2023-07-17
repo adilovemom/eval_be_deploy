@@ -13,20 +13,6 @@ app.use(cors());
 app.use("/users",userRouter);
 app.use("/posts",postRouter);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 app.listen(process.env.port,async ()=>{
     try {
         await connection
